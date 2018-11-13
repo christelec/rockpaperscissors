@@ -8,6 +8,17 @@
 
 
 // DOCUMENT READY FUNCTION BELOW
-$("button").click(function(){
-    $("#userChoice").text($("#input").val());
+$("#shoot").click(function(){
+    var randomNumber= Math.random();
+    
+    if(randomNumber > .66) {
+        $("#computerChoice").text("rock");
+}else if(randomNumber > .33) {
+        $("#computerChoice").text("paper");
+}else if(randomNumber > .1)
+        $("#computerChoice").text("scissors"); {
+}
+    
+    
+    
 });
